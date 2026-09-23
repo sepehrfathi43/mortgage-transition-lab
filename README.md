@@ -1,5 +1,10 @@
 # Mortgage Transition Lab
 
+**Project in progress:** an ongoing mortgage-performance project with a tested Dask pipeline and competing-risk baseline.
+
+The current version runs on Freddie Mac's small release sample. Historical-cohort analysis, large-scale benchmarks, and DeepSurv training are still ahead. The working code and checks are documented in [VALIDATION.md](VALIDATION.md).
+
+
 When a mortgage falls a month behind, what happens next? Some borrowers catch up. Others miss another payment. Some loans leave the dataset because they are paid off, sold, or liquidated.
 
 I'm building this project to follow those paths through monthly loan records. It starts with Freddie Mac's public release sample and a Dask pipeline, then moves toward default and payoff timing models on a larger historical cohort.
